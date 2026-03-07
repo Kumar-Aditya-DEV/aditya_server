@@ -5,7 +5,7 @@ const port = 3000
 
 app.use(express.json())
 
-mongoose.connect("mongodb+srv://aditya123:aditya_atlas@cluster0.17m4c1y.mongodb.net/Day7UsersLab1?appName=Cluster0")
+mongoose.connect("mongodb+srv://aditya123:aditya_atlas@cluster0.17m4c1y.mongodb.net/Day10UsersLab1?appName=Cluster0")
 .then(() => console.log("connected to mongodb"))
 .catch((err) => console.log("could not connect to mongodb"));
 
